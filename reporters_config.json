@@ -1,0 +1,14 @@
+{
+  "reporterEnabled": "spec, mocha-junit-reporter, mochawesome",
+  "mochaJunitReporterReporterOptions": {
+    "includePending": true,
+    "testCaseSwitchClassnameAndName": false,
+    "mochaFile": "cypress/results/TEST-[hash].xml"
+  },
+  "mochawesomeReporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "reportDir": "cypress/results/mochawesome"
+  }
+}

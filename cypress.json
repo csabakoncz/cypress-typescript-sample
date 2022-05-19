@@ -1,1 +1,12 @@
-{}
+{
+    "video": false,
+    "supportFile": "cypress/lib/index.ts",
+    "animationDistanceThreshold": 20,
+    "screenshotOnRunFailure": true,
+    "ignoreTestFiles": ["**/_arcviz_config/**/*.*"],
+    "reporter": "mocha-multi-reporters",
+    "reporterOptions": {
+      "configFile": "reporters_config.json"
+    }
+}
+
